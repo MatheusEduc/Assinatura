@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Assinatura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Nosso Site de Assinatura!</h1>
+        <p>Assine para acessar conteúdo exclusivo.</p>
+    </header>
+
+    <main>
+        <section class="plans">
+            <h2>Nossos Planos</h2>
+            <div class="plan" id="basic-plan">
+                <h3>Plano Básico</h3>
+                <p>Acesso a conteúdo básico.</p>
+                <p>Preço: R$ 19,99/mês</p>
+                <button onclick="subscribe('Básico')">Assinar</button>
+            </div>
+            <div class="plan" id="premium-plan">
+                <h3>Plano Premium</h3>
+                <p>Acesso a todo o conteúdo.</p>
+                <p>Preço: R$ 49,99/mês</p>
+                <button onclick="subscribe('Premium')">Assinar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Seu Site de Assinatura</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
